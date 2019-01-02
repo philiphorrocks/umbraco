@@ -1,11 +1,14 @@
-# umbraco
+AWS Umbraco POC environment 
 
-Add an umbraco_poc.pem key
+Create an umbraco_poc.pem key
 Update the provider.tf with your own VPC credentials
 
-then
+then run:
 
-run:-   terraform init
-        terraform plan
-        terraform apply
+  terraform init
+  terraform plan
+  terraform apply
         
+To remove the config run:
+
+  terraform destroy
