@@ -36,7 +36,7 @@ Clone files form Git repository and run the Terrafomrm commands below
 
        - git clone https://github.com/philiphorrocks/umbraco.git
        - cd umbraco
-       - Update the provision.tf file with your person AWS keys
+       - Update the provision.tf file with your person AWS keys and region (eu-west-2)
        - Add your .pem key (umbraco_poc)
        
 then run:
