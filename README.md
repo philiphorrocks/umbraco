@@ -12,7 +12,7 @@ This Terraform script configures the following:
         - Configures IIS on port 80 
         - Pulls Unbroco  application from GIT repo (https://github.com/umbraco/Umbraco-CMS.git)
         - Configures NAT and IGW for routing rquirements
-        - Configures associated SG groups for ingress and 
+        - Configures associated SG groups for ingress and egress
         - Installs and configured Aurora (MySQL) DN for RDS with a read replica - (eu-west-2a/eu-west-2b)
        
 
