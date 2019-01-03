@@ -10,7 +10,7 @@ This Terraform script configures the following:
         - Configures 1x AWS application Loadbalacer
         - Configure 2x Windows 2016 AWS instances (T2.micro)
         - Configures IIS on port 80 
-        - Pulls Unbroco  application from GIT repo (https://github.com/philiphorrocks/al_test.git)
+        - Pulls Unbroco  application from GIT repo (https://github.com/umbraco/Umbraco-CMS.git)
         - Configures NAT and IGW for routing rquirements
         - Configures associated SG groups for ingress and 
         - Installs and configured Aurora (MySQL) DN for RDS with a read replica
@@ -34,7 +34,7 @@ To use this Terraform script, following the steps below:
 
 Clone files form Git repository and run the Terrafomrm commands below
 
-       - git clone https://github.com/philiphorrocks/al_code.git
+       - git clone https://github.com/philiphorrocks/umbraco.git
        - cd umbrraco
        - Update the provision.tf file
        - Add your .pem key (umbraco_poc)
